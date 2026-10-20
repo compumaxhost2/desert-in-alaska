@@ -76,12 +76,12 @@ export default function Reviews() {
         {/* CAROUSEL */}
         <div className="mt-14 relative">
           {/* LEFT BUTTON */}
-          <button className="review-prev absolute top-1/2 -translate-y-1/2 z-20 left-2 sm:left-3 md:-left-6 lg:-left-10 text-[#86522d] p-2 hover:scale-110 transition">
+          <button aria-label="Previous review" className="review-prev absolute top-1/2 -translate-y-1/2 z-20 left-2 sm:left-3 md:-left-6 lg:-left-10 text-[#86522d] p-2 hover:scale-110 transition">
             <ChevronLeft className="w-6 h-6 md:w-7 md:h-7" />
           </button>
 
           {/* RIGHT BUTTON */}
-          <button className="review-next absolute top-1/2 -translate-y-1/2 z-20 right-2 sm:right-3 md:-right-6 lg:-right-10 text-[#86522d] p-2 hover:scale-110 transition">
+          <button aria-label="Next review" className="review-next absolute top-1/2 -translate-y-1/2 z-20 right-2 sm:right-3 md:-right-6 lg:-right-10 text-[#86522d] p-2 hover:scale-110 transition">
             <ChevronRight className="w-6 h-6 md:w-7 md:h-7" />
           </button>
 
