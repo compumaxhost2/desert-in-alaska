@@ -22,6 +22,289 @@ export type BlogPost = {
 
 export const blogs: BlogPost[] = [
   {
+    slug: "commercial-kitchen-fire-suppression-requirements-detroit-mi",
+    title: "Commercial Kitchen Fire Suppression Requirements in Detroit, MI",
+    lastUpdated: "October 26, 2026",
+    metaTitle: "Commercial Kitchen Fire Suppression Requirements Detroit, MI",
+    metaDescription:
+      "Learn commercial kitchen fire suppression requirements in Detroit, MI, including fire codes, NFPA standards, inspections, maintenance, and installation.",
+    metaKeywords:
+      "commercial kitchen fire suppression requirements Detroit MI, commercial kitchen fire suppression Detroit, restaurant fire suppression system Detroit MI, commercial kitchen fire protection Detroit, kitchen hood fire suppression system Detroit, NFPA 96 requirements Michigan, NFPA 17A wet chemical fire suppression, Detroit restaurant fire safety compliance",
+    description: (
+      <>
+        <p>
+          <Link
+            href="/services/kitchen-exhaust-systems-detroit"
+            className="text-[#8b5428] hover:underline"
+          >
+            <strong>Commercial kitchen fire suppression requirements in Detroit, MI</strong>
+          </Link>
+          , generally include an approved hood suppression system, compliant kitchen exhaust ventilation, appropriate fire extinguishers, regular inspections, and ongoing maintenance. Restaurants must also comply with applicable Detroit fire codes and Michigan regulations. The exact requirements depend on the cooking equipment, building, system design, and applicable code provisions.
+        </p>
+        <p className="mt-4">
+          Understanding these requirements helps restaurant owners protect employees, customers, equipment, and property while maintaining fire safety compliance.
+        </p>
+      </>
+    ),
+    alt: "Commercial kitchen hood fire suppression system in a restaurant kitchen",
+    image: "/blog/commercial-kitchen-fire-suppression-detroit.webp",
+    sections: [
+      {
+        title: "What Are Commercial Kitchen Fire Suppression Requirements?",
+        paragraph: (
+          <>
+            <p>
+              Commercial kitchen fire suppression requirements are safety rules governing how restaurants prevent, detect, and control fires involving cooking equipment, grease, and ventilation systems.
+            </p>
+            <p className="mt-4">
+              NFPA 96 addresses ventilation control and fire protection for commercial cooking operations, while NFPA 17A covers wet chemical fire extinguishing systems. Detroit&apos;s adopted fire code and applicable Michigan requirements determine how these standards apply locally.
+            </p>
+            <p className="mt-4">
+              A compliant kitchen typically needs an appropriately designed suppression system protecting the cooking appliances and associated hood and duct hazards, along with suitable exhaust ventilation and required portable extinguishers.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "How Does a Kitchen Hood Fire Suppression System Work?",
+        paragraph: (
+          <>
+            <p>
+              A commercial kitchen hood fire suppression system detects a fire through its approved detection mechanism and releases an extinguishing agent through strategically positioned nozzles.
+            </p>
+            <p className="mt-4">
+              Many restaurant systems use wet chemical agents designed to control cooking-oil and grease fires. The agent helps suppress flames and cool hot cooking surfaces, reducing the risk of re-ignition.
+            </p>
+            <p className="mt-4">
+              Depending on the approved system design, activation may also shut off fuel or electrical power to protected cooking equipment and trigger alarms.
+            </p>
+            <p className="mt-4">
+              For example, if cooking oil ignites in a commercial fryer, the system can discharge directly over the fryer and other protected cooking appliances. Correct nozzle placement, compatible equipment, and reliable fuel-shutoff connections are essential for effective protection.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Key Detroit and Michigan Fire Suppression Requirements",
+        paragraph: (
+          <>
+            <p>
+              Restaurant owners should review these important compliance areas:
+            </p>
+            <ul className="list-disc pl-6 my-4 space-y-2">
+              <li>
+                <strong>Approved suppression systems:</strong> Install a listed system appropriate for the cooking equipment and hazards.
+              </li>
+              <li>
+                <strong>Hood and exhaust compliance:</strong> Follow applicable mechanical codes and NFPA 96 requirements for grease removal, exhaust ducts, and ventilation.
+              </li>
+              <li>
+                <strong>Wet chemical system standards:</strong> Follow the applicable NFPA 17A provisions and manufacturer instructions.
+              </li>
+              <li>
+                <strong>Portable fire extinguishers:</strong> Provide properly selected, accessible, maintained extinguishers. Commercial cooking operations commonly require a Class K extinguisher for cooking-oil and fat hazards; other hazards may require additional extinguisher types.
+              </li>
+              <li>
+                <strong>System interlocks:</strong> Verify that required fuel or power shutdowns and other safety functions operate correctly.
+              </li>
+              <li>
+                <strong>Permits and inspections:</strong> Confirm applicable permits, acceptance testing, and annual fire permit obligations with the City of Detroit.
+              </li>
+              <li>
+                <strong>Records and maintenance:</strong> Keep inspection reports, service documentation, and system information available for review.
+              </li>
+            </ul>
+            <p>
+              The Detroit Fire Department&apos;s Fire Prevention Section conducts life-safety inspections and witnesses acceptance testing for required fire protection systems. Requirements may differ for new construction, renovations, equipment changes, and existing installations.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "How Often Should Restaurant Fire Suppression Systems Be Inspected?",
+        paragraph: (
+          <>
+            <p>
+              Under commonly applicable NFPA 17A provisions, commercial kitchen wet chemical suppression systems should be inspected by qualified personnel at least every six months, subject to the governing edition, system listing, and applicable local requirements.
+            </p>
+            <p className="mt-4">
+              Inspection and maintenance should address:
+            </p>
+            <ul className="list-disc pl-6 my-4 space-y-2">
+              <li>Detection components and manual release mechanisms.</li>
+              <li>Nozzles, protective caps, piping, and agent containers.</li>
+              <li>Fuel and electrical shutdown functions.</li>
+              <li>System condition, pressure or other manufacturer-specified indicators.</li>
+              <li>Required service tags, documentation, and corrective actions.</li>
+            </ul>
+            <p>
+              Kitchen exhaust cleaning follows a separate schedule based on cooking volume and grease accumulation. A suppression inspection does not replace hood, duct, and exhaust-fan cleaning.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Installation Costs and Common Compliance Problems",
+        paragraph: (
+          <>
+            <p>
+              Commercial kitchen fire suppression installation costs in Detroit vary according to system size, cooking equipment, hood dimensions, piping, and installation complexity. Additional expenses may include permits, electrical or gas interlocks, system upgrades, and acceptance testing.
+            </p>
+            <p className="mt-4">
+              Common problems include:
+            </p>
+            <ul className="list-disc pl-6 my-4 space-y-2">
+              <li>Missing or incorrectly positioned suppression nozzles.</li>
+              <li>Cooking equipment moved without adjusting system coverage.</li>
+              <li>Grease buildup in hood filters and exhaust ducts.</li>
+              <li>Obstructed detection components or missing nozzle caps.</li>
+              <li>Failed fuel-shutoff connections.</li>
+              <li>Overdue inspections or incomplete service records.</li>
+            </ul>
+            <p>
+              Avoid choosing a contractor based on price alone. An incorrectly designed or maintained system can leave critical equipment unprotected and create expensive compliance problems.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Why Professional Fire Suppression Services Matter",
+        paragraph: (
+          <>
+            <p>
+              Professional installation helps ensure that system coverage matches the actual cooking layout and that critical safety controls function correctly. Qualified technicians can assess the hood, cooking appliances, suppression components, and exhaust configuration before recommending installation or modifications.
+            </p>
+            <p className="mt-4">
+              For restaurant owners, the process generally involves:
+            </p>
+            <ul className="list-disc pl-6 my-4 space-y-2">
+              <li>Assessing cooking equipment and fire hazards.</li>
+              <li>Determining the appropriate listed suppression system.</li>
+              <li>Coordinating required permits and installation details.</li>
+              <li>Testing system operation and required safety interlocks.</li>
+              <li>Providing service documentation and a maintenance plan.</li>
+            </ul>
+            <p className="font-semibold text-lg text-[#3b2a1f] mt-6">
+              Maintenance Best Practices
+            </p>
+            <ul className="list-disc pl-6 my-4 space-y-2">
+              <li>Keep hood filters and grease ducts clean.</li>
+              <li>Schedule suppression inspections at the required intervals.</li>
+              <li>Arrange an inspection after changes to protected cooking equipment.</li>
+              <li>Keep manual release controls accessible.</li>
+              <li>Address deficiencies promptly and maintain service records.</li>
+            </ul>
+          </>
+        ),
+      },
+      {
+        title: "Frequently Asked Questions",
+        paragraph: (
+          <>
+            <div className="space-y-3">
+              <details>
+                <summary className="font-semibold cursor-pointer">
+                  1. What are the commercial kitchen fire suppression requirements in Detroit, MI?
+                </summary>
+                <p className="mt-3">
+                  Detroit restaurants generally need approved fire protection for commercial cooking hazards, compliant hood and exhaust systems, suitable portable extinguishers, required inspections, and applicable fire permits. NFPA 96 and NFPA 17A are important standards, but the controlling requirements depend on Detroit&apos;s adopted codes and applicable Michigan regulations. Confirm project-specific requirements with the Detroit Fire Department before installation or renovation.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-semibold cursor-pointer">
+                  2. How often should restaurant fire suppression systems be inspected in Michigan?
+                </summary>
+                <p className="mt-3">
+                  Commercial kitchen wet chemical suppression systems generally require professional inspection every six months under commonly applicable NFPA 17A provisions. Additional service may be necessary after system discharge, repairs, or equipment changes. Hood and duct cleaning have separate schedules based on cooking operations and grease buildup. Always verify the applicable standard, manufacturer instructions, and local requirements for your installation.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-semibold cursor-pointer">
+                  3. Do Detroit restaurants need a Class K fire extinguisher?
+                </summary>
+                <p className="mt-3">
+                  Commercial kitchens using cooking oils and fats commonly require a Class K portable extinguisher in addition to any other extinguishers required for the facility. It should be accessible and maintained according to applicable requirements. Staff should know when and how to use it safely. A portable extinguisher supplements, rather than replaces, a required automatic kitchen suppression system.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-semibold cursor-pointer">
+                  4. How much does commercial kitchen fire suppression installation cost in Detroit?
+                </summary>
+                <p className="mt-3">
+                  There is no single installation price for every Detroit restaurant. Costs depend on the hood size, number and type of cooking appliances, suppression system design, piping, controls, required upgrades, permits, and testing. Existing systems may need modifications if equipment has changed. Request a site assessment and itemized quote to understand the project&apos;s actual scope and cost.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-semibold cursor-pointer">
+                  5. Is kitchen hood fire suppression required for every restaurant?
+                </summary>
+                <p className="mt-3">
+                  Requirements depend on the cooking processes, appliances, applicable codes, and building conditions. Commercial operations involving equipment that produces grease-laden vapors typically require a compliant Type I hood and associated fire protection. Not every food-service operation has identical requirements. Have a qualified professional evaluate the equipment and confirm the applicable requirements with the local authority.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-semibold cursor-pointer">
+                  6. What happens if a restaurant fails a fire suppression inspection?
+                </summary>
+                <p className="mt-3">
+                  An inspection may identify deficiencies involving system coverage, damaged components, failed shutdown controls, overdue maintenance, or missing documentation. Depending on the findings, the restaurant may need corrective work, additional testing, or follow-up inspections. Serious fire hazards can lead to enforcement action and potentially affect operations. Address deficiencies promptly and retain documentation showing that corrective work has been completed.
+                </p>
+              </details>
+            </div>
+          </>
+        ),
+      },
+      {
+        title: "Professional Kitchen Fire Protection in Detroit",
+        paragraph: (
+          <>
+            <p>
+              <Link href="/" className="text-[#8b5428] hover:underline">
+                <strong>Desert In Alaska Corp</strong>
+              </Link>{" "}
+              provides commercial fire suppression, kitchen exhaust and ventilation, installation, inspection, testing, maintenance, and repair services for commercial properties in Detroit and Metro Detroit. The company reports serving the area since 1997 and identifies restaurants and other commercial facilities among its customers.
+            </p>
+            <p className="mt-4">
+              Whether you&apos;re opening a restaurant, upgrading a kitchen hood, or addressing inspection deficiencies, a site assessment can help identify the work needed to support safe, code-conscious operations. The company also provides related mechanical and commercial gas piping services, helping businesses coordinate important kitchen infrastructure needs.
+            </p>
+            <p className="mt-4">
+              For commercial kitchen fire suppression requirements in Detroit, MI, contact Desert In Alaska to discuss your equipment, installation needs, and maintenance schedule. Call{" "}
+              <a href="tel:313-931-3070" className="text-[#8b5428] hover:underline font-semibold">
+                313-931-3070
+              </a>{" "}
+              or visit Desert In Alaska&apos;s website to request a consultation or quote.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Conclusion",
+        paragraph: (
+          <>
+            <p>
+              Meeting{" "}
+              <Link
+                href="/services/kitchen-exhaust-systems-detroit"
+                className="text-[#8b5428] hover:underline"
+              >
+                <strong>commercial kitchen fire suppression requirements in Detroit</strong>
+              </Link>{" "}
+              means more than installing a hood system. Restaurants must consider approved suppression equipment, exhaust ventilation, portable extinguishers, inspections, maintenance, and applicable local permits.
+            </p>
+            <p className="mt-4">
+              Working with a qualified fire protection professional helps identify deficiencies, maintain reliable system performance, and prepare for inspections. Review your current installation and confirm requirements with the Detroit Fire Department before making changes.
+            </p>
+          </>
+        ),
+      },
+    ],
+  },
+  {
     slug: "commercial-hvac-services-in-detroit-mi",
     title: "Commercial HVAC Services in Detroit, MI | Desert In Alaska",
     lastUpdated: "September 21, 2026",
