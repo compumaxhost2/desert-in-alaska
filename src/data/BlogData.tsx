@@ -22,6 +22,460 @@ export type BlogPost = {
 
 export const blogs: BlogPost[] = [
   {
+    slug: "what-type-of-ventilation-does-a-restaurant-kitchen-need",
+    title: "What Type of Ventilation Does a Restaurant Kitchen Need?",
+    lastUpdated: "November 9, 2026",
+    metaTitle: "Restaurant Kitchen Ventilation Systems: Detroit Guide",
+    metaDescription:
+      "What type of ventilation does a restaurant kitchen need? Explore exhaust hoods, makeup air systems, and commercial kitchen ventilation in Detroit, MI.",
+    metaKeywords:
+      "what type of ventilation does a restaurant kitchen need, commercial kitchen ventilation systems, restaurant kitchen exhaust systems, commercial kitchen exhaust hood, kitchen makeup air system, restaurant hood ventilation requirements, commercial kitchen exhaust fans, restaurant ventilation installation, kitchen exhaust systems Detroit, Type I kitchen hood, Type II kitchen hood",
+    description: (
+      <>
+        <p>
+          A restaurant kitchen needs a properly designed{" "}
+          <Link
+            href="/services/kitchen-exhaust-systems-detroit"
+            className="text-[#8b5428] hover:underline"
+          >
+            <strong>commercial kitchen ventilation system</strong>
+          </Link>{" "}
+          that removes smoke, grease, heat, steam, and cooking odors while supplying fresh replacement air. Most commercial kitchens require an exhaust hood, grease-rated ductwork where applicable, an exhaust fan, and a makeup air system. The exact setup depends on cooking equipment, kitchen layout, building conditions, and applicable fire and mechanical codes.
+        </p>
+        <p className="mt-4">
+          For restaurant owners in Detroit, choosing the right kitchen ventilation system is essential for employee comfort, fire safety, indoor air quality, and smooth daily operations. A properly designed system also helps control grease buildup and prevents excessive heat from accumulating in busy cooking areas.
+        </p>
+      </>
+    ),
+    alt: "Commercial restaurant kitchen ventilation system with stainless steel exhaust hood in Detroit, Michigan",
+    image: "/blog/restaurant-kitchen-ventilation-systems-detroit.webp",
+    sections: [
+      {
+        title: "What Is Commercial Kitchen Ventilation?",
+        paragraph: (
+          <>
+            <p>
+              <Link
+                href="/services/kitchen-exhaust-systems-detroit"
+                className="text-[#8b5428] hover:underline"
+              >
+                <strong>Commercial kitchen ventilation</strong>
+              </Link>{" "}
+              is a system designed to capture and remove airborne contaminants produced during cooking. It controls grease-laden vapors, smoke, heat, steam, and odors while maintaining balanced airflow throughout the kitchen.
+            </p>
+            <div className="my-6 p-4 rounded-xl bg-[#faf8f5] border border-[#e6ddd5]">
+              <p className="font-semibold text-[#3b2a1f]">
+                Quick Answer:
+              </p>
+              <p className="mt-1 text-[#444]">
+                A restaurant kitchen typically needs a commercial exhaust hood, exhaust fan, appropriate ductwork, and makeup air equipment. Depending on the cooking appliances, the system may also require fire suppression, air filtration, and additional ventilation controls.
+              </p>
+            </div>
+            <p className="mt-4">
+              Unlike residential kitchen ventilation, commercial systems must handle continuous cooking, higher temperatures, larger equipment, and heavier grease production.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "What Types of Ventilation Do Restaurants Need?",
+        paragraph: (
+          <>
+            <p>
+              The right ventilation system depends on the cooking equipment and the type of food being prepared. Commercial kitchens commonly use the following components.
+            </p>
+
+            <p className="font-semibold text-lg text-[#3b2a1f] mt-6">
+              1. Type I Commercial Kitchen Exhaust Hoods
+            </p>
+            <p className="mt-2">
+              Type I hoods are designed for appliances that produce grease-laden vapors and smoke.
+            </p>
+            <p className="mt-2">
+              They are commonly installed above:
+            </p>
+            <ul className="list-disc pl-6 my-4 space-y-2">
+              <li>Commercial fryers</li>
+              <li>Griddles and flat-top grills</li>
+              <li>Charbroilers</li>
+              <li>Commercial ranges</li>
+              <li>Other grease-producing cooking equipment</li>
+            </ul>
+            <p>
+              These systems generally require grease-rated ductwork, suitable exhaust fans, and an approved fire-suppression system.
+            </p>
+
+            <p className="font-semibold text-lg text-[#3b2a1f] mt-6">
+              2. Type II Commercial Kitchen Exhaust Hoods
+            </p>
+            <p className="mt-2">
+              Type II hoods are designed primarily to capture heat, steam, and moisture rather than grease-laden cooking emissions.
+            </p>
+            <p className="mt-2">
+              They may be appropriate above:
+            </p>
+            <ul className="list-disc pl-6 my-4 space-y-2">
+              <li>Commercial dishwashers</li>
+              <li>Steam equipment</li>
+              <li>Certain ovens</li>
+              <li>Other appliances producing heat or moisture without grease-laden vapors</li>
+            </ul>
+            <p>
+              A Type II hood is not a substitute for a Type I hood when cooking equipment produces grease.
+            </p>
+
+            <p className="font-semibold text-lg text-[#3b2a1f] mt-6">
+              3. Kitchen Makeup Air Systems
+            </p>
+            <p className="mt-2">
+              A makeup air system replaces the air removed by kitchen exhaust fans.
+            </p>
+            <p className="mt-2">
+              Without sufficient replacement air, a restaurant may experience negative air pressure, uncomfortable drafts, difficulty opening doors, and reduced exhaust performance.
+            </p>
+            <p className="mt-2">
+              Makeup air may be tempered or conditioned depending on the building design and applicable requirements.
+            </p>
+
+            <p className="font-semibold text-lg text-[#3b2a1f] mt-6">
+              4. Commercial Exhaust Fans and Ductwork
+            </p>
+            <p className="mt-2">
+              Exhaust fans pull contaminated air through the hood and duct system before discharging it outdoors.
+            </p>
+            <p className="mt-2">
+              Commercial kitchen ductwork must be appropriate for the exhaust being handled. Grease exhaust systems require specific construction, access for cleaning, and installation clearances under applicable codes.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "How Does a Restaurant Kitchen Exhaust System Work?",
+        paragraph: (
+          <>
+            <p>
+              A commercial kitchen exhaust system removes contaminated air through a coordinated process:
+            </p>
+            <ul className="list-disc pl-6 my-4 space-y-2">
+              <li>Cooking equipment generates smoke, grease vapors, heat, and steam.</li>
+              <li>The exhaust hood captures airborne contaminants.</li>
+              <li>Grease filters collect grease particles.</li>
+              <li>Ductwork transports contaminated air outside.</li>
+              <li>Exhaust fans discharge the air outdoors.</li>
+              <li>Makeup air equipment replaces the exhausted air to maintain proper pressure.</li>
+            </ul>
+            <p className="mt-4">
+              The system must be designed to capture and contain cooking emissions under actual operating conditions. Proper airflow balancing is particularly important in busy restaurants.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Benefits of Proper Restaurant Kitchen Ventilation",
+        paragraph: (
+          <>
+            <p>
+              Investing in an appropriately designed commercial kitchen ventilation system provides several important advantages:
+            </p>
+            <ul className="list-disc pl-6 my-4 space-y-2">
+              <li>
+                <strong>Improved indoor air quality:</strong> Removes smoke, airborne grease, and cooking odors.
+              </li>
+              <li>
+                <strong>Better employee comfort:</strong> Helps control excessive heat and humidity.
+              </li>
+              <li>
+                <strong>Fire prevention:</strong> Reduces grease accumulation when combined with proper cleaning and fire protection.
+              </li>
+              <li>
+                <strong>Equipment protection:</strong> Helps prevent grease and moisture from accumulating on nearby surfaces.
+              </li>
+              <li>
+                <strong>Regulatory compliance:</strong> Supports applicable mechanical, building, and fire safety requirements.
+              </li>
+              <li>
+                <strong>Better kitchen productivity:</strong> Creates a more comfortable working environment for kitchen employees.
+              </li>
+            </ul>
+            <p className="mt-4">
+              For restaurants operating in Detroit, proper ventilation also helps prepare facilities for inspections and ongoing commercial operations.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Common Restaurant Kitchen Ventilation Problems",
+        paragraph: (
+          <>
+            <p>
+              Even professionally installed systems can develop problems without proper maintenance.
+            </p>
+            <p className="mt-4">
+              Common issues include:
+            </p>
+            <ul className="list-disc pl-6 my-4 space-y-2">
+              <li>
+                <strong>Insufficient exhaust airflow:</strong> May result from clogged filters, dirty ductwork, or improperly sized fans.
+              </li>
+              <li>
+                <strong>Poor makeup air balance:</strong> Can create negative pressure and interfere with hood performance.
+              </li>
+              <li>
+                <strong>Excessive kitchen temperatures:</strong> May indicate inadequate ventilation or HVAC performance.
+              </li>
+              <li>
+                <strong>Grease accumulation:</strong> Increases fire hazards and can restrict airflow.
+              </li>
+              <li>
+                <strong>Noisy exhaust fans:</strong> May indicate worn components, vibration, or mechanical problems.
+              </li>
+              <li>
+                <strong>Persistent cooking odors:</strong> Can result from inadequate capture, exhaust discharge problems, or insufficient airflow.
+              </li>
+            </ul>
+            <p className="mt-4">
+              A professional inspection can identify the underlying issue and determine whether cleaning, repairs, equipment replacement, or ventilation upgrades are necessary.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "How Much Does Commercial Kitchen Ventilation Cost?",
+        paragraph: (
+          <>
+            <p>
+              The cost of installing restaurant kitchen ventilation depends on the size of the kitchen, cooking equipment, building layout, and required exhaust capacity.
+            </p>
+            <p className="mt-4">
+              Important cost considerations include:
+            </p>
+            <div className="overflow-x-auto my-6">
+              <table className="min-w-full border-collapse border border-gray-300 text-left">
+                <thead>
+                  <tr className="bg-gray-50">
+                    <th className="border border-gray-300 p-3 font-semibold text-[#3b2a1f]">
+                      Component
+                    </th>
+                    <th className="border border-gray-300 p-3 font-semibold text-[#3b2a1f]">
+                      Factors Affecting Cost
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border border-gray-300 p-3 font-medium text-[#3b2a1f]">Commercial exhaust hood</td>
+                    <td className="border border-gray-300 p-3 text-[#444]">Hood size, type, and configuration</td>
+                  </tr>
+                  <tr className="bg-gray-50/50">
+                    <td className="border border-gray-300 p-3 font-medium text-[#3b2a1f]">Exhaust fan</td>
+                    <td className="border border-gray-300 p-3 text-[#444]">Airflow capacity and installation location</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3 font-medium text-[#3b2a1f]">Grease ductwork</td>
+                    <td className="border border-gray-300 p-3 text-[#444]">Length, routing, and construction</td>
+                  </tr>
+                  <tr className="bg-gray-50/50">
+                    <td className="border border-gray-300 p-3 font-medium text-[#3b2a1f]">Makeup air system</td>
+                    <td className="border border-gray-300 p-3 text-[#444]">Capacity, heating, and controls</td>
+                  </tr>
+                  <tr>
+                    <td className="border border-gray-300 p-3 font-medium text-[#3b2a1f]">Fire suppression</td>
+                    <td className="border border-gray-300 p-3 text-[#444]">System design and equipment requirements</td>
+                  </tr>
+                  <tr className="bg-gray-50/50">
+                    <td className="border border-gray-300 p-3 font-medium text-[#3b2a1f]">Installation labor</td>
+                    <td className="border border-gray-300 p-3 text-[#444]">Building accessibility and project complexity</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="mt-4">
+              A small restaurant kitchen may require a relatively straightforward installation, while a large commercial kitchen with multiple cooking stations may need a more extensive ventilation system.
+            </p>
+            <p className="mt-4">
+              The best approach is to request an on-site assessment and itemized estimate before starting installation.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Why Professional Kitchen Ventilation Installation Matters",
+        paragraph: (
+          <>
+            <p>
+              Commercial kitchen ventilation is more complicated than installing an ordinary exhaust fan. Every component must work together to capture cooking emissions, maintain balanced airflow, and support fire safety.
+            </p>
+            <p className="mt-4">
+              Professional contractors evaluate:
+            </p>
+            <ul className="list-disc pl-6 my-4 space-y-2">
+              <li>Cooking appliances and their heat and grease output.</li>
+              <li>Hood dimensions and required exhaust airflow.</li>
+              <li>Ductwork routing and fire-rated construction requirements.</li>
+              <li>Exhaust fan capacity and discharge location.</li>
+              <li>Makeup air requirements and building pressure.</li>
+              <li>Applicable mechanical and fire protection standards.</li>
+            </ul>
+            <p className="mt-4">
+              In Michigan, commercial kitchen exhaust systems must comply with applicable mechanical code requirements and NFPA 96. Permit requirements and inspections should also be confirmed with the relevant building authority.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Restaurant Kitchen Ventilation Maintenance Tips",
+        paragraph: (
+          <>
+            <p>
+              Regular maintenance helps keep commercial exhaust systems operating efficiently and safely.
+            </p>
+            <p className="mt-4">
+              Recommended practices include:
+            </p>
+            <ul className="list-disc pl-6 my-4 space-y-2">
+              <li>Clean grease filters regularly.</li>
+              <li>Arrange professional hood and duct cleaning based on cooking volume and applicable NFPA 96 requirements.</li>
+              <li>Inspect exhaust fans for unusual noise and vibration.</li>
+              <li>Check makeup air equipment and airflow balance.</li>
+              <li>Inspect ductwork for grease accumulation and damage.</li>
+              <li>Test fire suppression equipment according to applicable requirements.</li>
+              <li>Schedule professional ventilation inspections.</li>
+            </ul>
+            <p className="mt-4">
+              Do not wait until the hood stops capturing smoke effectively. Preventative maintenance can help avoid unexpected equipment problems and costly business interruptions.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Frequently Asked Questions",
+        paragraph: (
+          <>
+            <div className="space-y-3">
+              <details>
+                <summary className="font-semibold cursor-pointer">
+                  1. What type of ventilation does a restaurant kitchen need?
+                </summary>
+                <p className="mt-3">
+                  Most commercial restaurant kitchens need a Type I or Type II exhaust hood, depending on the cooking equipment. A complete system may also include exhaust fans, ductwork, grease filters, makeup air equipment, and fire suppression. The exact configuration depends on cooking operations and applicable building and fire codes.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-semibold cursor-pointer">
+                  2. What is the difference between Type I and Type II kitchen hoods?
+                </summary>
+                <p className="mt-3">
+                  Type I hoods capture grease-laden vapors and smoke from equipment such as fryers, grills, and charbroilers. Type II hoods primarily remove heat, steam, and moisture from appliances that do not produce grease-laden vapors. Selecting the correct hood is essential for safety and compliance.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-semibold cursor-pointer">
+                  3. Does a restaurant kitchen need a makeup air system?
+                </summary>
+                <p className="mt-3">
+                  Commercial kitchens generally need makeup air whenever their exhaust systems operate. Makeup air replaces the air removed by exhaust fans, helping maintain balanced building pressure and effective ventilation. An improperly balanced system can cause drafts, uncomfortable working conditions, and poor exhaust performance.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-semibold cursor-pointer">
+                  4. How much ventilation does a commercial kitchen need?
+                </summary>
+                <p className="mt-3">
+                  Required ventilation airflow depends on the hood type, dimensions, cooking appliances, equipment arrangement, and applicable mechanical code. There is no single CFM requirement suitable for every restaurant. A professional contractor should calculate the necessary exhaust and replacement air based on the actual kitchen design.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-semibold cursor-pointer">
+                  5. How often should restaurant kitchen exhaust systems be cleaned?
+                </summary>
+                <p className="mt-3">
+                  Cleaning frequency depends on cooking volume, food preparation methods, and grease production. Restaurants with heavy-volume solid-fuel cooking generally require more frequent cleaning than lower-volume operations. NFPA 96 provides inspection and cleaning guidance that professional contractors should use when establishing a maintenance schedule.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-semibold cursor-pointer">
+                  6. Can a restaurant operate without a commercial kitchen exhaust hood?
+                </summary>
+                <p className="mt-3">
+                  Restaurants using appliances that produce grease-laden vapors or significant cooking emissions generally require an appropriately designed exhaust hood. Requirements depend on the appliances, building configuration, and local regulations. Restaurant owners should consult a qualified commercial ventilation contractor before installing or modifying cooking equipment.
+                </p>
+              </details>
+
+              <details>
+                <summary className="font-semibold cursor-pointer">
+                  7. Who installs commercial kitchen exhaust systems in Detroit?
+                </summary>
+                <p className="mt-3">
+                  Commercial HVAC and mechanical contractors specializing in restaurant ventilation can design and install kitchen exhaust hoods, ductwork, exhaust fans, and makeup air systems. Detroit restaurant owners should choose experienced contractors familiar with Michigan mechanical requirements and applicable NFPA standards.
+                </p>
+              </details>
+            </div>
+          </>
+        ),
+      },
+      {
+        title: "Why Choose Desert In Alaska Corp for Commercial Kitchen Ventilation in Detroit?",
+        paragraph: (
+          <>
+            <p>
+              <Link href="/" className="text-[#8b5428] hover:underline">
+                <strong>Desert In Alaska Corp</strong>
+              </Link>{" "}
+              has provided commercial HVAC, mechanical, fire suppression, and kitchen exhaust solutions throughout Metro Detroit since 1997. The company works with restaurants, hotels, cafeterias, industrial facilities, and other commercial properties.
+            </p>
+            <p className="mt-4">
+              Its commercial kitchen exhaust services include hood installation, exhaust fan installation and replacement, grease ductwork, makeup air systems, ventilation upgrades, and preventative maintenance.
+            </p>
+            <p className="mt-4">
+              With licensed and insured professionals, certified technicians, and experience with commercial fire protection systems, Desert In Alaska focuses on reliable installations and practical ventilation solutions designed around each facility&apos;s requirements.
+            </p>
+            <p className="mt-4">
+              Whether you are opening a new restaurant, upgrading an existing kitchen, or addressing ventilation problems, the team can help evaluate your requirements.
+            </p>
+            <p className="mt-4">
+              Visit{" "}
+              <Link
+                href="/services/kitchen-exhaust-systems-detroit"
+                className="text-[#8b5428] hover:underline font-semibold"
+              >
+                Desert In Alaska&apos;s commercial kitchen exhaust services
+              </Link>{" "}
+              or call{" "}
+              <a
+                href="tel:313-931-3070"
+                className="text-[#8b5428] hover:underline font-semibold"
+              >
+                313-931-3070
+              </a>{" "}
+              to schedule an on-site inspection and request a quote.
+            </p>
+          </>
+        ),
+      },
+      {
+        title: "Conclusion",
+        paragraph: (
+          <>
+            <p>
+              The right restaurant kitchen ventilation system depends on the cooking equipment, kitchen layout, airflow requirements, and applicable safety regulations.
+            </p>
+            <p className="mt-4">
+              For most commercial kitchens, an appropriately selected exhaust hood, exhaust fan, grease ductwork, and makeup air system are essential. Type I and Type II hoods serve different purposes, so choosing the correct equipment is important for effective ventilation and fire safety.
+            </p>
+            <p className="mt-4">
+              If you are planning a restaurant kitchen installation or upgrading an existing ventilation system in Detroit, working with an experienced commercial mechanical contractor can help ensure your system is designed for dependable performance.
+            </p>
+          </>
+        ),
+      },
+    ],
+  },
+  {
     slug: "choose-commercial-gas-piping-contractor-detroit-mi",
     title: "How to Choose the Right Commercial Gas Piping Contractor in Detroit, MI",
     lastUpdated: "November 3, 2026",
