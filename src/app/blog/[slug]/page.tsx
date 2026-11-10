@@ -46,7 +46,7 @@ export default async function SingleBlog({ params }: Props) {
             />
           </div>
 
-          <p className="mt-6 text-lg text-[#6b5a4d]">{blog.description}</p>
+          <div className="mt-6 text-lg text-[#6b5a4d]">{blog.description}</div>
 
           {blog.sections.length > 0 && (
             <nav aria-label="Table of contents" className="mt-10 rounded-2xl border border-[#e6ddd5] bg-[#faf8f5] p-6">

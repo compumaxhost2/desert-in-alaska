@@ -56,9 +56,9 @@ export default function BlogPage() {
                     </p>
                   )}
 
-                  <p className="mt-3 text-sm text-[#876C61] line-clamp-3 grow">
+                  <div className="mt-3 text-sm text-[#876C61] line-clamp-3 grow">
                     {blog.description}
-                  </p>
+                  </div>
 
                   <span className="mt-4 inline-block text-sm text-[#8b5428] font-semibold hover:underline">
                     Read More →

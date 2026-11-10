@@ -54,7 +54,7 @@ export default function ChatWidget() {
   return (
     <>
       {/* Floating Button */}
-      <button
+      <button aria-label="Open AI chat"
         onClick={() => setOpen(!open)}
         className="fixed bottom-20 right-4 flex items-center gap-2 rounded-full bg-[#86492D] px-4 py-3 text-white shadow-xl hover:scale-105 transition-all duration-200 z-50"
       >
