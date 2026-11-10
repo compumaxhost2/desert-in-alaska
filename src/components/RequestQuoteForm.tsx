@@ -29,6 +29,15 @@ export default function RequestQuoteForm() {
       });
 
       if (res.ok) {
+        const waMessage = `Hello Desert in Alaska, I just submitted an inquiry on your website:
+Name: ${payload.name}
+Phone: ${payload.phone}
+Email: ${payload.email}
+Service: ${payload.service || "Not specified"}
+Message: ${payload.message}`;
+
+        const waUrl = `https://wa.me/13139313070?text=${encodeURIComponent(waMessage)}`;
+        window.open(waUrl, "_blank");
         router.push("/message-sent");
       } else {
         router.push("/message-failed");

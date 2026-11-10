@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function MessageSentPage() {
   return (
@@ -28,7 +29,19 @@ export default function MessageSentPage() {
             you shortly.
           </p>
 
-          <div className="mt-10 flex justify-center gap-4">
+          <div className="mt-8">
+            <a
+              href="https://wa.me/13139313070"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-md bg-[#25D366] px-6 py-3.5 text-sm font-semibold text-white hover:bg-[#20bd5a] transition shadow-lg"
+            >
+              <FaWhatsapp className="text-xl" />
+              Chat Directly on WhatsApp (313-931-3070)
+            </a>
+          </div>
+
+          <div className="mt-8 flex justify-center gap-4">
             <Link
               href="/"
               className="rounded-md bg-[#8b5428] px-8 py-4 text-sm font-semibold text-white hover:bg-[#73431f] transition"
