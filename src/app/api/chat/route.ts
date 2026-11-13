@@ -1,4 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
+import { NextResponse } from "next/server";
 
 const businessInfo = `
 Company: Desert In Alaska
@@ -37,32 +38,63 @@ export async function POST(req: Request) {
     const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) {
       console.error("Missing GEMINI_API_KEY environment variable");
-      return Response.json(
+      return NextResponse.json(
         { message: "Chat service is not configured." },
         { status: 500 },
       );
     }
 
-    const ai = new GoogleGenAI({ apiKey });
     const { message } = await req.json();
+    if (!message || typeof message !== "string") {
+      return NextResponse.json(
+        { message: "Message is required." },
+        { status: 400 },
+      );
+    }
 
-    const result = await ai.models.generateContent({
-      model: "gemini-2.5-flash",
-      contents: `
+    const ai = new GoogleGenAI({ apiKey });
+    const modelsToTry = [
+      "gemini-2.5-flash",
+      "gemini-2.5-flash-lite",
+      "gemini-flash-latest",
+    ];
+
+    let lastError: unknown = null;
+    let replyText = "";
+
+    for (const model of modelsToTry) {
+      try {
+        const result = await ai.models.generateContent({
+          model,
+          contents: `
 ${businessInfo}
 
 User Question:
 ${message}
 `,
-    });
+        });
 
-    return Response.json({
-      message: result.text,
+        if (result && result.text) {
+          replyText = result.text;
+          break;
+        }
+      } catch (err) {
+        lastError = err;
+        console.warn(`Model ${model} failed, trying next fallback...`, err);
+      }
+    }
+
+    if (!replyText) {
+      throw lastError || new Error("No response from AI models");
+    }
+
+    return NextResponse.json({
+      message: replyText,
     });
   } catch (error) {
-    console.error(error);
+    console.error("GEMINI CHAT ERROR:", error);
 
-    return Response.json(
+    return NextResponse.json(
       {
         message: "Sorry, something went wrong.",
       },
